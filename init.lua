@@ -5,6 +5,7 @@ require('core.configs')
 
 -- Plugins
 require('plugins.treesitter')
+require('plugins.venv-lsp')
 require('plugins.lsp')
 require('plugins.catppuccin')
 require('plugins.cmp')

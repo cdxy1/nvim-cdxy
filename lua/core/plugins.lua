@@ -58,5 +58,6 @@ require("lazy").setup({
        event = "VimEnter", 
        dependencies = { "nvim-tree/nvim-web-devicons" }
    },
+   { "jglasovic/venv-lsp.nvim" },
 
 })
