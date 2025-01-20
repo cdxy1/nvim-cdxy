@@ -44,7 +44,7 @@ require("lazy").setup({
 -- or                              , branch = '0.1.x',
       dependencies = { "nvim-lua/plenary.nvim" }
     },
-    { "jose-elias-alvarez/null-ls.nvim" },
+    { "mhartington/formatter.nvim" },
     { "akinsho/toggleterm.nvim", version = "*", config = true },
     { "numToStr/Comment.nvim" },
     { "windwp/nvim-autopairs" },
