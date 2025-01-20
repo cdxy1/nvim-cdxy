@@ -1,4 +1,4 @@
--- Basic 
+-- Basic
 require('core.plugins')
 require('core.mappings')
 require('core.configs')
@@ -20,3 +20,4 @@ require('plugins.gitsigns')
 require('plugins.lualine')
 require('plugins.dashboard')
 require('plugins.neotree')
+require('plugins.lsp_signature')

@@ -15,7 +15,7 @@ vim.api.nvim_create_autocmd("BufEnter", {
     end,
 })
 
--- Line Numbers 
+-- Line Numbers
 vim.opt.number = true
 
 vim.opt.wrap = false
@@ -23,4 +23,5 @@ vim.opt.wrap = false
 
 -- Others
 vim.opt.shell = "/bin/zsh"
+vim.opt.swapfile = false
 vim.keymap.set('n', 'q', '<Nop>')

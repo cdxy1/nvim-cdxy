@@ -29,7 +29,7 @@ require("lazy").setup({
       "nvim-tree/nvim-web-devicons",
       "MunifTanjim/nui.nvim",
     		}
-	}, 
+	},
     { "https://github.com/nvim-treesitter/nvim-treesitter" },
     { "neovim/nvim-lspconfig" },
     { "catppuccin/nvim" },
@@ -55,9 +55,10 @@ require("lazy").setup({
     dependencies = { "nvim-tree/nvim-web-devicons" }
     },
     { "nvimdev/dashboard-nvim",
-       event = "VimEnter", 
+       event = "VimEnter",
        dependencies = { "nvim-tree/nvim-web-devicons" }
    },
    { "jglasovic/venv-lsp.nvim" },
+   { "ray-x/lsp_signature.nvim" },
 
 })
