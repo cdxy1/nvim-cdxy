@@ -60,5 +60,6 @@ require("lazy").setup({
    },
    { "jglasovic/venv-lsp.nvim" },
    { "ray-x/lsp_signature.nvim" },
+   { "nvim-treesitter/nvim-treesitter-refactor" },
 
 })
