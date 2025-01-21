@@ -16,3 +16,6 @@ vim.keymap.set('n', '<leader>X', ':BufferLineCloseRight<CR>')
 -- LspSignature
 vim.keymap.set({ 'n' }, '<C-k>', function()       require('lsp_signature').toggle_float_win()
 end, { silent = true, noremap = true, desc = 'toggle signature' })
+
+-- CellularAutomaton
+vim.keymap.set("n", "<leader>fck", "<cmd>CellularAutomaton make_it_rain<CR>")
