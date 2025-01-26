@@ -19,3 +19,6 @@ end, { silent = true, noremap = true, desc = 'toggle signature' })
 
 -- CellularAutomaton
 vim.keymap.set("n", "<leader>fck", "<cmd>CellularAutomaton make_it_rain<CR>")
+
+-- VenvSelector
+vim.keymap.set("n", "<leader>vs", "<cmd>VenvSelect<cr>" )

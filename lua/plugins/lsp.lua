@@ -22,4 +22,3 @@ require('lspconfig').pyright.setup {
         }
     }
 }
-
