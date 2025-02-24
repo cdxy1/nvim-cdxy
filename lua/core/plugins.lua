@@ -71,5 +71,6 @@ require("lazy").setup({
     lazy = false,
     branch = "regexp",
    },
+   { "HiPhish/rainbow-delimiters.nvim" },
 
 })
